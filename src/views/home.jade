@@ -1,0 +1,677 @@
+doctype html
+//
+  Theme: JANGO - Ultimate Multipurpose HTML Theme Built With Twitter Bootstrap 3.3.5
+  Version: 1.3.2
+  Author: Themehats
+  Site: http://www.themehats.com
+  Purchase: http://themeforest.net/item/jango-responsive-multipurpose-html5-template/11987314?ref=themehats
+  Contact: support@themehats.com
+  Follow: http://www.twitter.com/themehats
+//if IE 9
+  html.ie9(lang='en')  
+// [if !IE] <!
+html(lang='en')
+  // <![endif]
+  // BEGIN HEAD
+  head
+    meta(charset='utf-8')
+    title JANGO | Ultimate Multipurpose Bootstrap HTML Theme - Home Version 10
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(content='width=device-width, initial-scale=1.0', name='viewport')
+    meta(http-equiv='Content-type', content='text/html; charset=utf-8')
+    meta(content='', name='description')
+    meta(content='', name='author')
+    // BEGIN GLOBAL MANDATORY STYLES
+    link(href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&subset=all', rel='stylesheet', type='text/css')
+    link(href='stylesheets/plugins/socicon/socicon.css', rel='stylesheet', type='text/css')
+    link(href='stylesheets/plugins/bootstrap-social/bootstrap-social.css', rel='stylesheet', type='text/css')
+    link(href='stylesheets/plugins/font-awesome/css/font-awesome.min.css', rel='stylesheet', type='text/css')
+    link(href='stylesheets/plugins/simple-line-icons/simple-line-icons.min.css', rel='stylesheet', type='text/css')
+    link(href='stylesheets/plugins/animate/animate.min.css', rel='stylesheet', type='text/css')
+    link(href='stylesheets/plugins/bootstrap/css/bootstrap.min.css', rel='stylesheet', type='text/css')
+    // END GLOBAL MANDATORY STYLES
+    // BEGIN: BASE PLUGINS
+    link(href='stylesheets/plugins/revo-slider/css/settings.css', rel='stylesheet', type='text/css')
+    link(href='stylesheets/plugins/cubeportfolio/css/cubeportfolio.min.css', rel='stylesheet', type='text/css')
+    link(href='stylesheets/plugins/owl-carousel/owl.carousel.css', rel='stylesheet', type='text/css')
+    link(href='stylesheets/plugins/owl-carousel/owl.theme.css', rel='stylesheet', type='text/css')
+    link(href='stylesheets/plugins/owl-carousel/owl.transitions.css', rel='stylesheet', type='text/css')
+    link(href='stylesheets/plugins/fancybox/jquery.fancybox.css', rel='stylesheet', type='text/css')
+    link(href='stylesheets/plugins/slider-for-bootstrap/css/slider.css', rel='stylesheet', type='text/css')
+    // END: BASE PLUGINS
+    // BEGIN THEME STYLES
+    link(href='stylesheets/plugins.css', rel='stylesheet', type='text/css')
+    link#style_components(href='stylesheets/components.css', rel='stylesheet', type='text/css')
+    link#style_theme(href='stylesheets/themes/default.css', rel='stylesheet', type='text/css')
+    link(href='stylesheets/custom.css', rel='stylesheet', type='text/css')
+    // END THEME STYLES
+    link(rel='shortcut icon', href='favicon.ico')
+  body.c-layout-header-fixed.c-layout-header-6-topbar
+
+
+    // BEGIN: LAYOUT/HEADERS/HEADER-2
+    // BEGIN: HEADER 2
+    header.c-layout-header.c-layout-header-6.c-navbar-fluid(data-minimize-offset='80')
+      .c-topbar
+        .container
+          nav.c-top-menu
+            ul.c-links.c-theme-ul
+              li
+                a.btn.c-theme-btn.c-btn-square.c-btn-uppercase.c-btn-bold(href='javascript:;', data-toggle='modal', data-target='#login-form') Sign In
+ 
+          .c-brand
+            a.c-logo(href='index.html')
+              img.c-desktop-logo(src='assets/base/img/layout/logos/logo-3.png', alt='JANGO')
+              img.c-desktop-logo-inverse(src='assets/base/img/layout/logos/logo-1.png', alt='JANGO')
+              img.c-mobile-logo(src='assets/base/img/layout/logos/logo-3.png', alt='JANGO')
+
+
+      .c-navbar
+        .container
+          // BEGIN: BRAND
+          .c-navbar-wrapper.clearfix
+            // END: BRAND
+
+            // BEGIN: HOR NAV
+            // BEGIN: LAYOUT/HEADERS/MEGA-MENU
+            // BEGIN: MEGA MENU
+            // Dropdown menu toggle on mobile: c-toggler class can be applied to the link arrow or link itself depending on toggle mode
+            nav.c-mega-menu.c-pull-right.c-mega-menu-dark.c-mega-menu-dark-mobile.c-fonts-uppercase.c-fonts-bold
+              ul.nav.navbar-nav.c-theme-nav
+                li.c-active
+                  a.c-link.dropdown-toggle(href='javascript:;')
+                    | [關於喜康瑞]
+                    span.c-arrow.c-toggler
+                  .dropdown-menu.c-menu-type-mega.c-menu-type-fullwidth(style='min-width: auto')
+                    .row
+                      .col-md-3
+                        ul.dropdown-menu.c-menu-type-inline
+                          li
+                            h3 Home Samples
+                          li
+                            a(href='index.html') Home Version 1
+
+                      .col-md-3
+                        ul.dropdown-menu.c-menu-type-inline
+                          li
+                            h3 Home Samples
+                          li
+                            a(href='home-7.html') Home Version 7
+                          li.c-active
+                            a(href='home-10.html') Home Version 10
+
+                      .col-md-3
+                        ul.dropdown-menu.c-menu-type-inline
+                          li
+                            h3 Onepage Samples
+                          li
+                            a(href='onepage-1.html', target='_blank') Onepage Version 1
+
+                      .col-md-3
+                        ul.dropdown-menu.c-menu-type-inline
+                          li
+                            h3 Onepage Samples
+                          li
+                            a(href='onepage-7.html', target='_blank') Onepage Version 7
+
+                li.c-menu-type-classic
+                  a.c-link.dropdown-toggle(href='javascript:;')
+                    | [最新消息]
+                    span.c-arrow.c-toggler
+                  ul.dropdown-menu.c-menu-type-classic.c-pull-left
+
+                    li.dropdown-submenu
+                      a(href='javascript:;')
+                        | Headers
+                        span.c-arrow.c-toggler
+                      ul.dropdown-menu.c-pull-right
+                        li
+                          a(href='home-header-1.html') Home Header v1
+                        li
+                          a(href='home-header-1-ext.html') Home Header v1 - Extended
+
+                    li.dropdown-submenu
+                      a(href='#')
+                        | Sidebar Menu
+                        span.c-arrow.c-toggler
+                      ul.dropdown-menu.c-pull-right
+                        li
+                          a(href='sidebar-menu-1.html') Sidebar Menu v1
+
+                    li.dropdown-submenu
+                      a(href='javascript:;')
+                        | Footers
+                        span.c-arrow.c-toggler
+                      ul.dropdown-menu.c-pull-right
+                        li
+                          a(href='footer-1.html#footer') Footer 1
+
+                    li.dropdown-submenu
+                      a(href='#')
+                        | Breadcrumbs
+                        span.c-arrow.c-toggler
+                      ul.dropdown-menu.c-pull-right
+                        li
+                          a(href='breadcrumbs-default.html') Breadcrumbs - Default
+
+                    li.dropdown-submenu
+                      a(href='#')
+                        | Mega Menu
+                        span.c-arrow.c-toggler
+                      ul.dropdown-menu.c-pull-right
+                        li
+                          a(href='megamenu-light.html') Mega Menu - Light
+
+                    li.dropdown-submenu
+                      a(href='page-extended-portfolio.html')
+                        | Multi Level Menu
+                        span.c-arrow.c-toggler
+                      ul.dropdown-menu.c-pull-right
+                        li
+                          a(href='#') Example Link
+
+                        li.dropdown-submenu
+                          a(href='#')
+                            | Example Sub Menu
+                            span.c-arrow.c-toggler
+                          ul.dropdown-menu.c-pull-left
+                            li
+                              a(href='#') Example Link
+
+                            li.dropdown-submenu
+                              a(href='#')
+                                | Example Sub Menu
+                                span.c-arrow.c-toggler
+                              ul.dropdown-menu.c-pull-left
+                                li
+                                  a(href='#') Example Link
+
+                li
+                  a.c-link.dropdown-toggle(href='javascript:;')
+                    | [商品訂購]
+                    span.c-arrow.c-toggler
+                  ul.dropdown-menu.c-menu-type-mega.c-menu-type-fullwidth(style='min-width: auto')
+                    li
+                      ul.dropdown-menu.c-menu-type-inline
+                        li
+                          h3 Page Samples 1
+                        li
+                          a(href='page-about-1.html') About Us 1
+
+                    li
+                      ul.dropdown-menu.c-menu-type-inline
+                        li
+                          h3 Page Samples 2
+                        li
+                          a(href='page-contact-1.html') Contact Us 1
+
+                    li
+                      ul.dropdown-menu.c-menu-type-inline
+                        li
+                          h3 Gallery Pages
+                        li
+                          a(href='page-product-launch.html') Product Launch
+
+                    li
+                      ul.dropdown-menu.c-menu-type-inline
+                        li
+                          h3 Blog Pages
+                        li
+                          a(href='page-blog-list.html') Blog List View
+
+                li
+                  a.c-link.dropdown-toggle(href='javascript:;')
+                    | [巧手美食]
+                    span.c-arrow.c-toggler
+                  ul.dropdown-menu.c-menu-type-mega.c-menu-type-fullwidth(style='min-width: auto')
+                    li
+                      ul.dropdown-menu.c-menu-type-inline
+                        li
+                          h3 Shop Pages 1
+                        li
+                          a(href='shop-home-1.html') Shop Home 1
+
+                    li
+                      ul.dropdown-menu.c-menu-type-inline
+                        li
+                          h3 Shop Pages 2
+                        li
+                          a(href='shop-product-grid.html') Product Grid
+
+                    li
+                      ul.dropdown-menu.c-menu-type-inline
+                        li
+                          h3 Shop Pages 3
+                        li
+                          a(href='shop-customer-account.html') Customer Login/Register
+
+                    li
+                      ul.dropdown-menu.c-menu-type-inline
+                        li
+                          h3 Shop Components
+                        li
+                          a(href='component-shop-1.html') Shop Components 1
+
+                li.c-menu-type-classic
+                  a.c-link.dropdown-toggle(href='javascript:;')
+                    | [會員專區]
+                    span.c-arrow.c-toggler
+                  ul.dropdown-menu.c-menu-type-classic.c-pull-left
+                    li
+                      a(href='page-4col-portfolio.html') 4 Columns Portfolio
+
+                li.c-menu-type-classic
+                  a.c-link.dropdown-toggle(href='javascript:;')
+                    | [常見問題]
+                    span.c-arrow.c-toggler
+                  ul.dropdown-menu.c-menu-type-classic.c-pull-left
+                    li
+                      a(href='page-4col-portfolio.html') 4 Columns Portfolio
+
+                li.c-cart-toggler-wrapper.pull-right
+                  a.c-btn-icon.c-cart-toggler(href='#')
+                    i.icon-handbag.c-cart-icon
+                    span.c-cart-number.c-theme-bg 2
+
+            // END: MEGA MENU
+            // END: LAYOUT/HEADERS/MEGA-MENU
+            // END: HOR NAV
+
+          // BEGIN: LAYOUT/HEADERS/QUICK-CART
+          // BEGIN: CART MENU
+          .c-cart-menu
+            .c-cart-menu-title
+              p.c-cart-menu-float-l.c-font-sbold 2 item(s)
+              p.c-cart-menu-float-r.c-theme-font.c-font-sbold $79.00
+            ul.c-cart-menu-items
+              li
+                .c-cart-menu-close
+                  a.c-theme-link(href='#') ×
+                img(src='assets/base/img/content/shop2/24.jpg')
+                .c-cart-menu-content
+                  p
+                    | 1 x
+                    span.c-item-price.c-theme-font $30
+                  a.c-item-name.c-font-sbold(href='shop-product-details-2.html') Winter Coat
+              li
+                .c-cart-menu-close
+                  a.c-theme-link(href='#') ×
+                img(src='assets/base/img/content/shop2/12.jpg')
+                .c-cart-menu-content
+                  p
+                    | 1 x
+                    span.c-item-price.c-theme-font $30
+                  a.c-item-name.c-font-sbold(href='shop-product-details.html') Sports Wear
+            .c-cart-menu-footer
+              a.btn.btn-md.c-btn.c-btn-square.c-btn-grey-3.c-font-white.c-font-bold.c-center.c-font-uppercase(href='shop-cart.html') View Cart
+              a.btn.btn-md.c-btn.c-btn-square.c-theme-btn.c-font-white.c-font-bold.c-center.c-font-uppercase(href='shop-checkout.html') Checkout
+          // END: CART MENU
+          // END: LAYOUT/HEADERS/QUICK-CART
+
+    // END: HEADER 2
+    // END: LAYOUT/HEADERS/HEADER-2
+
+
+    // BEGIN: CONTENT/USER/FORGET-PASSWORD-FORM
+    #forget-password-form.modal.fade.c-content-login-form(role='dialog')
+      .modal-dialog
+        .modal-content.c-square
+          .modal-header.c-no-border
+            button.close(type='button', data-dismiss='modal', aria-label='Close')
+              span(aria-hidden='true') ×
+          .modal-body
+            h3.c-font-24.c-font-sbold Password Recovery
+            p To recover your password please fill in your email address
+            form
+              .form-group
+                label.hide(for='forget-email') Email
+                input#forget-email.form-control.input-lg.c-square(type='email', placeholder='Email')
+              .form-group
+                button.btn.c-theme-btn.btn-md.c-btn-uppercase.c-btn-bold.c-btn-square.c-btn-login(type='submit') Submit
+                a.c-btn-forgot(href='javascript:;', data-toggle='modal', data-target='#login-form', data-dismiss='modal') Back To Login
+          .modal-footer.c-no-border
+            span.c-text-account Don't Have An Account Yet ?
+            a.btn.c-btn-dark-1.btn.c-btn-uppercase.c-btn-bold.c-btn-slim.c-btn-border-2x.c-btn-square.c-btn-signup(href='javascript:;', data-toggle='modal', data-target='#signup-form', data-dismiss='modal') Signup!
+    // END: CONTENT/USER/FORGET-PASSWORD-FORM
+
+
+    // BEGIN: CONTENT/USER/SIGNUP-FORM
+    #signup-form.modal.fade.c-content-login-form(role='dialog')
+      .modal-dialog
+        .modal-content.c-square
+          .modal-header.c-no-border
+            button.close(type='button', data-dismiss='modal', aria-label='Close')
+              span(aria-hidden='true') ×
+          .modal-body
+            h3.c-font-24.c-font-sbold Create An Account
+            p Please fill in below form to create an account with us
+            form
+              .form-group
+                label.hide(for='signup-email') Email
+                input#signup-email.form-control.input-lg.c-square(type='email', placeholder='Email')
+              .form-group
+                label.hide(for='signup-username') Username
+                input#signup-username.form-control.input-lg.c-square(type='email', placeholder='Username')
+              .form-group
+                label.hide(for='signup-fullname') Fullname
+                input#signup-fullname.form-control.input-lg.c-square(type='email', placeholder='Fullname')
+              .form-group
+                label.hide(for='signup-country') Country
+                select#signup-country.form-control.input-lg.c-square
+                  option(value='1') Country
+              .form-group
+                button.btn.c-theme-btn.btn-md.c-btn-uppercase.c-btn-bold.c-btn-square.c-btn-login(type='submit') Signup
+                a.c-btn-forgot(href='javascript:;', data-toggle='modal', data-target='#login-form', data-dismiss='modal') Back To Login
+    // END: CONTENT/USER/SIGNUP-FORM
+
+
+    // BEGIN: CONTENT/USER/LOGIN-FORM
+    #login-form.modal.fade.c-content-login-form(role='dialog')
+      .modal-dialog
+        .modal-content.c-square
+          .modal-header.c-no-border
+            button.close(type='button', data-dismiss='modal', aria-label='Close')
+              span(aria-hidden='true') ×
+          .modal-body
+            h3.c-font-24.c-font-sbold Good Afternoon!
+            p Let's make today a great day!
+            form
+              .form-group
+                label.hide(for='login-email') Email
+                input#login-email.form-control.input-lg.c-square(type='email', placeholder='Email')
+              .form-group
+                label.hide(for='login-password') Password
+                input#login-password.form-control.input-lg.c-square(type='password', placeholder='Password')
+              .form-group
+                .c-checkbox
+                  input#login-rememberme.c-check(type='checkbox')
+                  label.c-font-thin.c-font-17(for='login-rememberme')
+                    span
+                    span.check
+                    span.box
+                    |  Remember Me
+              .form-group
+                button.btn.c-theme-btn.btn-md.c-btn-uppercase.c-btn-bold.c-btn-square.c-btn-login(type='submit') Login
+                a.c-btn-forgot(href='javascript:;', data-toggle='modal', data-target='#forget-password-form', data-dismiss='modal') Forgot Your Password ?
+              .clearfix
+                .c-content-divider.c-divider-sm.c-icon-bg.c-bg-grey.c-margin-b-20
+                  span or signup with
+                ul.c-content-list-adjusted
+                  li
+                    a.btn.btn-block.c-btn-square.btn-social.btn-twitter
+                      i.fa.fa-twitter
+                      |  Twitter
+                  li
+                    a.btn.btn-block.c-btn-square.btn-social.btn-facebook
+                      i.fa.fa-facebook
+                      |  Facebook
+                  li
+                    a.btn.btn-block.c-btn-square.btn-social.btn-google
+                      i.fa.fa-google
+                      |  Google
+          .modal-footer.c-no-border
+            span.c-text-account Don't Have An Account Yet ?
+            a.btn.c-btn-dark-1.btn.c-btn-uppercase.c-btn-bold.c-btn-slim.c-btn-border-2x.c-btn-square.c-btn-signup(href='javascript:;', data-toggle='modal', data-target='#signup-form', data-dismiss='modal') Signup!
+    // END: CONTENT/USER/LOGIN-FORM
+
+
+    // BEGIN: PAGE CONTAINER
+    .c-layout-page
+      // BEGIN: PAGE CONTENT
+
+      // BEGIN: LAYOUT/SLIDERS/REVO-SLIDER-10
+      section.c-layout-revo-slider.c-layout-revo-slider-2
+        .tp-banner-container.tp-fullscreen.tp-fullscreen-mobile
+          .tp-banner
+
+      // END: LAYOUT/SLIDERS/REVO-SLIDER-10
+
+      // BEGIN: CONTENT/MISC/ABOUT-3
+      .c-content-box.c-size-md.c-bg-white
+        .container
+          .row
+            .col-sm-7
+              .c-content-tab-4.c-opt-3(role='tabpanel')
+                ul.nav.nav-justified(role='tablist')
+                  li.active(role='presentation')
+                    a.c-font-16(href='#tab-31', role='tab', data-toggle='tab') 
+                .tab-content
+                  #tab-31.tab-pane.fade.in.active(role='tabpanel')
+                    ul.c-tab-items
+                      li.row
+                        .col-sm-4.col-xs-5
+                          .c-photo
+                            img.img-responsive(width='150', height='100', src='assets/base/img/content/stock/6.jpg', alt='')
+                        .col-sm-8.col-xs-7
+                          h4.c-font-20 Lorem Ipsum
+                          p.c-font-16
+                            | Lorem ipsum dolor sit amet et consectetuer elit sed nonummy nib esuismod tincid unt laoreet dolore sit amet conectetuer ed dolore sit amet esmod conctetuer adipiscing lorem ipsum eit noummy tinid laoreet
+                            | dolore.
+
+
+            .col-sm-5
+              .c-content-tab-4.c-opt-3(role='tabpanel')
+                ul.nav.nav-justified(role='tablist')
+                  li.active(role='presentation')
+                    a.c-font-16(href='#tab-31', role='tab', data-toggle='tab') 最新消息
+                .tab-content
+                  #tab-31.tab-pane.fade.in.active(role='tabpanel')
+                    ul.c-tab-items
+                      li.row
+                        .col-sm-4.col-xs-5
+                          .c-photo
+                            img.img-responsive(width='150', height='100', src='assets/base/img/content/stock/6.jpg', alt='')
+                        .col-sm-8.col-xs-7
+                          h4.c-font-20 Lorem Ipsum
+                          p.c-font-16
+                            | Lorem ipsum dolor sit amet et consectetuer elit sed nonummy nib esuismod tincid unt laoreet dolore sit amet conectetuer ed dolore sit amet esmod conctetuer adipiscing lorem ipsum eit noummy tinid laoreet
+                            | dolore.
+                      li.row
+                        .col-sm-4.col-xs-5
+                          .c-photo
+                            img.img-responsive(width='150', height='100', src='assets/base/img/content/stock/5.jpg', alt='')
+                        .col-sm-8.col-xs-7
+                          h4.c-font-20 Dolore Sit Amet
+                          p.c-font-16
+                            | Lorem ipsum dolor sit amet et consectetuer elit sed nonummy nib esuismod tincid unt laoreet dolore sit amet conectetuer ed dolore sit amet esmod conctetuer adipiscing lorem ipsum eit noummy tinid laoreet
+                            | dolore.
+
+      // END: CONTENT/MISC/ABOUT-3
+
+      // BEGIN: CONTENT/MISC/SERVICES-1
+      .c-content-box.c-size-md.c-bg-grey-1
+        .container
+          .c-content-feature-2-grid(data-auto-height='true', data-mode='base-height')
+            .c-content-title-1
+              h3.c-font-uppercase.c-center.c-font-bold 巧手料理分享
+              .c-line-center
+            .row
+              .col-md-7.col-sm-6
+                .c-content-feature-2(data-height='height')
+                  .c-icon-wrapper
+                    .c-content-line-icon.c-theme.c-icon-support
+                  h3.c-font-uppercase.c-font-bold.c-title Mobile Apps
+              .col-md-5.col-sm-6
+                .c-content-feature-2(data-height='height')
+                  .c-icon-wrapper
+                    .c-content-line-icon.c-theme.c-icon-support
+                  h3.c-font-uppercase.c-font-bold.c-title Mobile Apps
+              .col-md-5.col-sm-6
+                .c-content-feature-2(data-height='height')
+                  .c-icon-wrapper
+                    .c-content-line-icon.c-theme.c-icon-support
+                  h3.c-font-uppercase.c-font-bold.c-title Mobile Apps
+              .col-md-7.col-sm-6
+                .c-content-feature-2(data-height='height')
+                  .c-icon-wrapper
+                    .c-content-line-icon.c-theme.c-icon-support
+                  h3.c-font-uppercase.c-font-bold.c-title Mobile Apps
+              .col-md-7.col-sm-6
+                .c-content-feature-2(data-height='height')
+                  .c-icon-wrapper
+                    .c-content-line-icon.c-theme.c-icon-support
+                  h3.c-font-uppercase.c-font-bold.c-title Mobile Apps
+              .col-md-5.col-sm-6
+                .c-content-feature-2(data-height='height')
+                  .c-icon-wrapper
+                    .c-content-line-icon.c-theme.c-icon-support
+                  h3.c-font-uppercase.c-font-bold.c-title Mobile Apps
+      // END: CONTENT/MISC/SERVICES-1
+
+      // BEGIN: CONTENT/BARS/BAR-2
+      .c-content-box.c-size-md.c-bg-grey-1
+        .container
+          .c-content-bar-2.c-opt-1
+            .row(data-auto-height='true')
+              .col-md-3
+                .c-content-v-center.c-bg-red(data-height='height')
+                  .c-wrapper
+                    .c-body
+                      h3.c-font-white.c-font-bold 喜康瑞粉絲團
+              .col-md-3
+                .c-content-v-center.c-bg-red(data-height='height')
+                  .c-wrapper
+                    .c-body
+                      h3.c-font-white.c-font-bold 喜康瑞部落格
+              .col-md-3
+                .c-content-v-center.c-bg-red(data-height='height')
+                  .c-wrapper
+                    .c-body
+                      h3.c-font-white.c-font-bold 訂閱電子報                
+      // END: CONTENT/BARS/BAR-2
+      
+      // END: PAGE CONTENT
+    // END: PAGE CONTAINER
+
+
+    // BEGIN: LAYOUT/FOOTERS/FOOTER-5
+    a(name='footer')
+    footer.c-layout-footer.c-layout-footer-3.c-bg-dark
+      .c-prefooter
+        .container
+          .row
+            .col-md-2
+              .c-container.c-first
+                .c-content-title-1
+                  h3.c-font-uppercase.c-font-bold.c-font-white
+                    | 產品介紹
+                  .c-line-left.hide
+                ul.c-links
+                  li
+                    a(href='#') Home
+                  li
+                    a(href='#') About
+                  li
+                    a(href='#') Terms
+                  li
+                    a(href='#') Contact
+            .col-md-2
+              .c-container.c-first
+                .c-content-title-1
+                  h3.c-font-uppercase.c-font-bold.c-font-white
+                    | 巧手料理分享
+                  .c-line-left.hide
+                ul.c-links
+                  li
+                    a(href='#') Home
+                  li
+                    a(href='#') About
+                  li
+                    a(href='#') Terms
+                  li
+                    a(href='#') Contact
+            .col-md-3
+              .c-container.c-first
+                .c-content-title-1
+                  h3.c-font-uppercase.c-font-bold.c-font-white
+                    | 客服中心
+                  .c-line-left.hide
+                ul.c-links
+                  li
+                    a(href='#') Home
+                  li
+                    a(href='#') About
+                  li
+                    a(href='#') Terms
+                  li
+                    a(href='#') Contact
+
+            .col-md-5
+              .c-container.c-last
+                .c-content-title-1
+                  h3.c-font-uppercase.c-font-bold.c-font-white Find us
+                  .c-line-left.hide
+                  p
+                    | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed elit diam nonummy ad minim.
+
+    // END: LAYOUT/FOOTERS/FOOTER-5
+
+    
+    // BEGIN: CORE PLUGINS
+    //if lt IE 9
+      script(src='../assets/global/plugins/excanvas.min.js')
+    script(src='stylesheets/plugins/jquery.min.js', type='text/javascript')
+    script(src='stylesheets/plugins/jquery-migrate.min.js', type='text/javascript')
+    script(src='stylesheets/plugins/bootstrap/js/bootstrap.min.js', type='text/javascript')
+    script(src='stylesheets/plugins/jquery.easing.min.js', type='text/javascript')
+    // END: CORE PLUGINS
+    // BEGIN: LAYOUT PLUGINS
+    script(src='stylesheets/plugins/revo-slider/js/jquery.themepunch.tools.min.js', type='text/javascript')
+    script(src='stylesheets/plugins/revo-slider/js/jquery.themepunch.revolution.min.js', type='text/javascript')
+    script(src='stylesheets/plugins/cubeportfolio/js/jquery.cubeportfolio.min.js', type='text/javascript')
+    script(src='stylesheets/plugins/owl-carousel/owl.carousel.min.js', type='text/javascript')
+    script(src='stylesheets/plugins/counterup/jquery.waypoints.min.js', type='text/javascript')
+    script(src='stylesheets/plugins/counterup/jquery.counterup.min.js', type='text/javascript')
+    script(src='stylesheets/plugins/fancybox/jquery.fancybox.pack.js', type='text/javascript')
+    script(src='stylesheets/plugins/slider-for-bootstrap/js/bootstrap-slider.js', type='text/javascript')
+    // END: LAYOUT PLUGINS
+    // BEGIN: THEME SCRIPTS
+    script(src='scripts/components.js', type='text/javascript')
+    script(src='scripts/components-shop.js', type='text/javascript')
+    script(src='scripts/app.js', type='text/javascript')
+    script.
+      $(document).ready(function()
+      {
+      App.init(); // init core
+      });
+    // END: THEME SCRIPTS
+    // BEGIN: PAGE SCRIPTS
+    script.
+      $(document).ready(function()
+      {
+      var slider = $('.c-layout-revo-slider .tp-banner');
+      var cont = $('.c-layout-revo-slider .tp-banner-container');
+      var api = slider.show().revolution(
+      {
+      delay: 15000,
+      startwidth: 1170,
+      startheight: App.getViewPort().height,
+      navigationType: "hide",
+      navigationArrows: "solo",
+      touchenabled: "on",
+      onHoverStop: "on",
+      keyboardNavigation: "off",
+      navigationType: "bullet",
+      navigationArrows: "",
+      navigationStyle: "round c-tparrows-hide c-theme",
+      navigationHAlign: "right",
+      navigationVAlign: "bottom",
+      navigationHOffset: 60,
+      navigationVOffset: 60,
+      spinner: "spinner2",
+      fullScreen: 'on',
+      fullScreenAlignForce: 'on',
+      fullScreenOffsetContainer: '.c-layout-header',
+      shadow: 0,
+      fullWidth: "off",
+      forceFullWidth: "off",
+      hideTimerBar: "on",
+      hideThumbsOnMobile: "on",
+      hideNavDelayOnMobile: 1500,
+      hideBulletsOnMobile: "on",
+      hideArrowsOnMobile: "on",
+      hideThumbsUnderResolution: 0
+      });
+      }); //ready
+    // END: PAGE SCRIPTS
+    // END: LAYOUT/BASE/BOTTOM
