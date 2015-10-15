@@ -1,5 +1,5 @@
 {
-  "name": "f2e-gulp",
+  "name": "f2egulp",
   "version": "0.0.1",
   "scripts": {
     "start": "npm i && gulp"
